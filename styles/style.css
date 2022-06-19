@@ -144,14 +144,9 @@
   margin: 0 auto;
   display: flex;
   width:1100px;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   z-index: 2;
-}
-
-.table__cell_theme_light{
-  padding-top: 60px;
 }
 
 .table__cell{
@@ -162,6 +157,7 @@
 .table__cell_theme_light{
   width: 250px;
   margin-bottom: 60px;
+  padding-top: 60px;
 }
 
 .table__heading{
@@ -241,7 +237,6 @@
   padding-bottom: 90px;
   overflow: hidden;
 }
-
 .section-title_theme_dark{
   margin: 90px auto 20px auto;
   color: #f2f2f2;
