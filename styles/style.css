@@ -170,11 +170,11 @@
 }
 
 .feynman{
-  min-height: 790px;
+  min-height: 890px;
   background-color: #f2f2f2;
   position: relative;
   margin-top: 40px;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   justify-content:center;
 }
 
@@ -184,6 +184,7 @@
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 100px;
   margin-top: 0;
   line-height: 1.15;
   font-size: 120px;
@@ -231,7 +232,7 @@
   padding-bottom: 90px;
   overflow: hidden;
 }
-.kaufman-dec__object_kaufman_triangle{
+.kaufman__triangle{
 background-image: url(../images/kaufman-triangle.svg);
 width: 877px;
 height: 877px;
