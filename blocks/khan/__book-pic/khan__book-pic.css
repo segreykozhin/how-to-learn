@@ -1,0 +1,9 @@
+.khan__book-pic{
+  margin-right: 48px;
+  display: flex;
+  width: 620px;
+  height: 608px;
+  background-image: url(../images/khan-book.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
