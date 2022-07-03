@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -15,7 +14,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a href="#"  class="header__link"> Узнать &#10230; </a></p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -67,13 +66,9 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe src="https://www.youtube.com/watch?v=arj7oStGLkU" width="515" height="316"
-            ></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe src="https://www.youtube.com/watch?v=5MgBikgcWnY" width="515" height="316" ></iframe>
-          </div>
+          <iframe  class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+          <iframe  class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" ></iframe>
+
         </div>
       </section>
 
@@ -139,18 +134,18 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <p class="khan__quote-author">Джордж Лукас</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги">
             <div class="khan__buy-link"> Купить книгу &#10230;</div>
           </div>
         </div>
       </section>
 
       <section class="kaufman">
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <div class="table table_theme_dark">
@@ -201,10 +196,10 @@
         <h2 class="section-title section-title_theme_light">Полезные ресурсы</h2>
         <p class="section-subtitle section-subtitle_theme_light">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
-          <div class="resources__logo"><a class="resources__link" href="#"><img src="./images/logo/resources-arzamas.svg" alt=""></a></div>
-          <div class="resources__logo"><a class="resources__link" href="#"><img src="./images/logo/resources-n1.svg" alt=""></a></div>
-          <div class="resources__logo"><a class="resources__link" href=""><img src="./images/logo/resources-strelka.svg" alt=""></a></div>
-          <div class="resources__logo"><a class="resources__link" href=""><img src="./images/logo/resources-polka.svg" alt=""></a></div>
+          <a class="resources__logo resources__link" href="#"><img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a>
+          <a class="resources__logo resources__link" href="#"><img src="./images/logo/resources-n1.svg" alt="Логотип Н+1"></a>
+          <a class="resources__logo resources__link" href="#"><img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></a>
+          <a class="resources__logo resources__link" href="#"><img src="./images/logo/resources-polka.svg" alt="Логотип Полка"></a>
         </div>
       </section>
 

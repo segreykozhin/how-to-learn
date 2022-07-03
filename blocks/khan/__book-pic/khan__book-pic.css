@@ -6,4 +6,5 @@
   background-image: url(../images/khan-book.jpg);
   background-repeat: no-repeat;
   background-position: cover;
+  object-fit: cover;
 }
