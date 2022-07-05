@@ -7,4 +7,5 @@
   background-repeat: no-repeat;
   background-position: cover;
   object-fit: cover;
+  object-position: top;
 }
